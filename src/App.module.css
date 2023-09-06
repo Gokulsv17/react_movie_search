@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0 3px 6px 0 #555;
+    justify-content: space-between;
+    align-items: center;
+}
+.titleCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    width: 48px;
+    height: 48px;
+    margin: 15px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+    background-color: white;
+    border-radius: 6px;
+    margin-left: 20px;
+    width: 50%;
+    /* height: 40px; */
+    align-items: center;
+    overflow: hidden;
+}
+.searchIcon{
+   
+    width: 32px;
+    height: 32px;
+}
+.search input{
+color: black;
+font-size: 16px;
+font-weight: bold;
+border: none;
+outline: none;
+margin-left: 15px;
+}
+
+
+.movieListContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 24px;
+    justify-content: space-evenly;
+}
+.placeHolder{
+    width: 120px;
+    height: 120px;
+    margin: 150px;
+    opacity: 50%;
+}
